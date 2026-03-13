@@ -1,15 +1,15 @@
 package diploma.server.model.type;
 
-public class ApiResponce<T> {
+public class ApiResponse<T> {
     private String message;
     private T payload;
 
-    public ApiResponce(String message) {
+    public ApiResponse(String message) {
         this.message = message;
         this.payload = null;
     }
 
-    public ApiResponce(String message, T payload) {
+    public ApiResponse(String message, T payload) {
         this.message = message;
         this.payload = payload;
     }
